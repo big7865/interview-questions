@@ -1,0 +1,153 @@
+
+1. What is the type of the following: 1
+A) float
+B) int
+C) str
+
+Answer: int
+
+Explanation: As there is no decimal, the number is of type int
+2. What is the type of the following "7.1"
+A) float
+B) int
+C) str
+
+Answer: str
+
+Explanation: The type is string
+3. What is the result of the following code segment: int(12.3)
+A) 12.3
+B) 12
+C) 13
+
+Answer: 12
+
+Explanation: In Python, if you cast a float to an integer, the conversion truncates towards zero.
+4. What is the result of the following code segment: int(True)
+A) 1
+B) 0
+C) error
+
+Answer: 1
+
+Explanation: When you cast a boolean True to an integer you get a 1
+5. What do you call a value that doesn’t have decimal values?
+A) A number
+B) An integer
+C) A string
+
+Answer: An integer
+6. What do you call a value that does have decimal values?
+A) A float
+B) A number
+C) An integer
+
+Answer: A float
+7. What data type can only have either a value of True or False?
+A) A string
+B) A boolean
+C) An integer
+
+Answer: A boolean
+8. What code would turn the string “1” into an integer?
+A)str(1)
+B) int("1")
+C) float("1")
+
+Answer: int("1")
+9. What character begins a single line comment?
+A)'''
+B) //
+C) #
+
+Answer:#
+10.What is the output of the following code :
+
+
+print 9//2
+(A) 4.5
+(B) 4.0
+(C) 4
+(D) Error
+
+
+Answer: (C)
+
+Explanation: The ‘//’ operator in Python returns the integer part of the floating number.
+11.Which operator is overloaded by the or() function?
+(A) ||
+(B) |
+(C) //
+(D) /
+
+
+Answer: (B)
+
+Explanation: or() function overloads the bitwise OR operator
+
+12. Name the keyword which helps in writing code involves condition.
+Hide Answer
+Ans. if 
+
+
+13. Write the syntax of simple if statement.
+
+
+Ans. 
+if < Condition> :
+    Execute this
+14. Is there any limit of statement that can appear under an if block.
+Ans. No
+15. What are functions in Python?
+Ans: A function is a block of code which is executed only when it is called. To define a Python function, the def keyword is used.
+
+Example:
+
+1
+2
+3
+def Newfunc():
+print("Hi, Welcome to Edureka")
+Output: Hi, Welcome to Edureka
+
+
+16. Write a program to check whether the last digit of a number( entered by user ) is 
+divisible by 3 or not.
+Hide Answer
+Ans.
+num=int(input("Enter any number"))
+ld=num%10
+if ld%3==0:
+     print("Last digit of number is divisible by 3 ")
+else:
+     print("Last digit of number is not divisible by 3 ")
+17. Write a program to check whether a number entered by user is even or odd.
+Hide Answer
+Ans. 
+num=int(input("Enter your age"))
+if num%2==0:
+   print("Number is Even")
+else:
+   print("Number is Odd")
+18. Write a program to check whether a number is divisible by 7 or not.
+Hide Answer
+Ans.
+num=int(input("Enter your age"))
+if num%7==0:
+   print("Number is divisible")
+else:
+   print("Number is not divisible")
+19.. Write a program to check whether a person is eligible for voting or not. (accept age from user)
+Hide Answer
+Ans. 
+age=int(input("Enter your age"))
+if age >=18:
+   print("Eligible for voting")
+else:
+   print("not eligible for voting")   
+20.What are functions? 
+Functions are a set of code used when we want to run the same method for more than 1 time.It reduces the length of program.Functions are defined into 2 categories –
+1)function defination
+2)function calling
+
+
